@@ -15,11 +15,11 @@ export const Navbar = () => {
   const [open, setOpen] = useState(false)
 
   return (
-    <header className="sticky top-0 z-40 border-b border-white/10 bg-hero-gradient/60 text-white backdrop-blur-md">
+    <header className="sticky top-0 z-40 border-b border-white/10 bg-hero-gradient/60 text-black backdrop-blur-md">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-3 py-3 sm:px-4 sm:py-4 lg:px-8">
         <Logo />
 
-        <nav className="hidden items-center gap-8 text-xs font-medium uppercase tracking-widest text-white/80 lg:flex lg:gap-10 lg:text-sm">
+        <nav className="hidden items-center gap-8 text-xs font-medium uppercase tracking-widest text-black/80 lg:flex lg:gap-10 lg:text-sm">
           {navLinks.map((link) => (
             <a
               key={link.label}
