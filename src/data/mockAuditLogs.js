@@ -1,0 +1,58 @@
+export const auditLogs = [
+  {
+    id: 1,
+    timestamp: '2025-11-12T07:32:15Z',
+    actor: 'Admin A',
+    action: 'Accessed Dukcapil Data',
+    resource: 'NIK Verification',
+    ip: '192.168.1.1',
+    status: 'Success',
+  },
+  {
+    id: 2,
+    timestamp: '2025-11-12T07:30:02Z',
+    actor: 'System B',
+    action: 'Data Synchronization',
+    resource: 'Financial Consolidation',
+    ip: 'System',
+    status: 'Success',
+  },
+  {
+    id: 3,
+    timestamp: '2025-11-12T07:25:43Z',
+    actor: 'User C',
+    action: 'API Call',
+    resource: 'BPOM Registry',
+    ip: '10.0.0.5',
+    status: 'Success',
+  },
+  {
+    id: 4,
+    timestamp: '2025-11-12T06:58:03Z',
+    actor: 'Auditor D',
+    action: 'Viewed Audit Trail',
+    resource: 'G2B Dashboard',
+    ip: '192.168.1.45',
+    status: 'Success',
+  },
+  {
+    id: 5,
+    timestamp: '2025-11-12T06:21:11Z',
+    actor: 'System Monitor',
+    action: 'Alert Triggered',
+    resource: 'API Latency Watch',
+    ip: 'System',
+    status: 'Resolved',
+  },
+  {
+    id: 6,
+    timestamp: '2025-11-12T05:58:44Z',
+    actor: 'Integration Bot',
+    action: 'Workflow Approval',
+    resource: 'Cross-PT Procurement',
+    ip: '10.0.0.15',
+    status: 'Success',
+  },
+]
+
+
