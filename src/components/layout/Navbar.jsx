@@ -3,7 +3,7 @@ import { useState } from 'react'
 
 // Mock Logo component
 const Logo = () => (
-  <div className="text-lg font-bold text-white tracking-wide">CodeLab</div>
+  <div className="text-lg font-bold text-white tracking-wide">sync.ln</div>
 )
 
 const navLinks = [

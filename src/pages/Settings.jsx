@@ -42,7 +42,7 @@ export const Settings = () => {
               Nama Lengkap
             </label>
             <input
-              defaultValue="Lintara Admin"
+              defaultValue="Sync.LN Admin"
               className="mt-1.5 w-full rounded-xl border border-neutral-200 px-3 py-2 text-xs font-medium text-neutral-700 shadow-sm focus:border-primary focus:outline-none focus:ring-4 focus:ring-primary/20 dark:border-neutral-700 dark:bg-neutral-900/80 dark:text-neutral-200 sm:mt-2 sm:rounded-2xl sm:px-4 sm:py-3 sm:text-sm"
             />
           </div>

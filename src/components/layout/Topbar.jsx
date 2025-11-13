@@ -16,7 +16,7 @@ export const Topbar = () => {
         government_admin: 'Government Admin',
         corporate_cio: 'Corporate CIO',
         group_cfo: 'Group CFO',
-      })[role] ?? 'Lintara Admin',
+      })[role] ?? 'Sync.LN Admin',
     [role]
   )
 
@@ -72,7 +72,7 @@ export const Topbar = () => {
             />
             <div className="hidden leading-tight sm:block">
               <p className="font-semibold text-neutral-800 dark:text-neutral-100">
-                {user?.name ?? 'Lintara Admin'}
+                {user?.name ?? 'Sync.LN Admin'}
               </p>
               <p className="text-xs uppercase tracking-[0.3em] text-neutral-400">{roleLabel}</p>
             </div>

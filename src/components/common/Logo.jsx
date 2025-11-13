@@ -16,7 +16,7 @@ export const Logo = ({ compact = false, to = '/' }) => {
       </span>
       <span className="flex flex-col leading-tight">
         <span className="font-semibold uppercase tracking-[0.3em] text-primary">
-          Lintara
+          Sync.LN
         </span>
         {!compact && (
           <span className="text-xs font-medium text-neutral-500">

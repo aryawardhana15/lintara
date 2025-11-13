@@ -1,12 +1,12 @@
 import { createContext, useContext, useEffect, useMemo, useState } from 'react'
 
 const DEFAULT_USER = {
-  name: 'Lintara Admin',
+  name: 'Sync.LN Admin',
   email: 'admin@gov.id',
   role: 'government_admin',
 }
 
-const storageKey = 'lintara-user'
+const storageKey = 'sync-ln-user'
 
 const getStoredUser = () => {
   if (typeof window === 'undefined') return DEFAULT_USER

@@ -110,7 +110,7 @@ export const ChartWidget = ({
   description,
   data,
   dataKey = 'value',
-  gradientId = 'lintaraGradient',
+  gradientId = 'syncLnGradient',
   color = '#0066CC',
   keys = [],
   colors = [],

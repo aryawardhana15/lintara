@@ -151,7 +151,7 @@ export const Login = () => {
         <div className="w-full max-w-md">
           <div>
             <h2 className="text-xl font-semibold text-neutral-900 sm:text-2xl">
-              Login ke Lintara Platform
+              Login ke Sync.LN Platform
             </h2>
             <p className="mt-2 text-xs text-neutral-500 sm:text-sm">
               Gunakan kredensial demo untuk mengeksplorasi dashboard.

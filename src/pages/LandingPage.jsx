@@ -112,7 +112,7 @@ export const LandingPage = () => {
               </h1>
               
               <p className="text-lg text-neutral-600 mb-8 leading-relaxed max-w-2xl">
-                Lintara menghubungkan ekosistem data nasional melalui integrasi G2G, G2B, dan B2B 
+                Sync.LN menghubungkan ekosistem data nasional melalui integrasi G2G, G2B, dan B2B 
                 dengan keamanan tingkat enterprise dan kepatuhan SPBE penuh.
               </p>
 
@@ -292,7 +292,7 @@ export const LandingPage = () => {
               Keunggulan Kompetitif
             </div>
             <h2 className="text-3xl font-bold text-neutral-900 sm:text-4xl mb-4">
-              Mengapa Memilih Lintara?
+              Mengapa Memilih Sync.LN?
             </h2>
           </div>
 
@@ -329,7 +329,7 @@ export const LandingPage = () => {
             Siap Memulai Integrasi Data Anda?
           </h2>
           <p className="text-lg text-white/90 mb-10 max-w-2xl mx-auto">
-            Bergabunglah dengan puluhan instansi dan perusahaan yang telah mempercayai Lintara 
+            Bergabunglah dengan puluhan instansi dan perusahaan yang telah mempercayai Sync.LN 
             untuk orkestrasi data mereka.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

@@ -33,7 +33,7 @@ export const AuditLog = () => {
           Transparansi penuh dengan audit trail dan observasi aktivitas.
         </h2>
         <p className="text-xs text-neutral-500 sm:text-sm">
-          Lacak setiap akses, sinkronisasi, dan perubahan data di seluruh ekosistem Lintara.
+          Lacak setiap akses, sinkronisasi, dan perubahan data di seluruh ekosistem Sync.LN.
         </p>
       </div>
 

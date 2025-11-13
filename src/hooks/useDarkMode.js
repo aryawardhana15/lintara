@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 
 const getInitialValue = () => {
   if (typeof window === 'undefined') return false
-  const stored = window.localStorage.getItem('lintara-theme')
+  const stored = window.localStorage.getItem('sync-ln-theme')
   if (stored) return stored === 'dark'
   return window.matchMedia?.('(prefers-color-scheme: dark)').matches ?? false
 }
@@ -18,7 +18,7 @@ export const useDarkMode = () => {
     } else {
       root.classList.remove('dark')
     }
-    window.localStorage.setItem('lintara-theme', isDark ? 'dark' : 'light')
+    window.localStorage.setItem('sync-ln-theme', isDark ? 'dark' : 'light')
   }, [isDark])
 
   return [isDark, setIsDark]
