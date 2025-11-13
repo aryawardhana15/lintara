@@ -1,4 +1,4 @@
-import { ArrowRight, Building, Landmark, Network, ShieldCheck, Timer, Zap, Globe, Lock, TrendingUp, CheckCircle2, Users, Award, BarChart3, Play, Check } from 'lucide-react'
+import { ArrowRight, Building, Landmark, Network, Timer, Zap, Globe, Lock, TrendingUp, CheckCircle2, Play, Check } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import Navbar from '../components/layout/Navbar'
 import { Footer } from '../components/layout/Footer'
